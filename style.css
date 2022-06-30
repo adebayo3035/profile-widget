@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #5451fa;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #5451fa;
+    background-color: #5451fa;
+    height: 100vh;
+
+}
+.container .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:  auto;
+    margin-top: 100px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+   
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5% auto;
+    width: 90%;
+}
+.icons i{
+    font-size: 20px;
+    padding: 0.25rem;
+}
+.header-bg{
+    background-image: url('resources/assets/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    border-radius: 1.25rem;
+}
+.profile-Image{
+    margin: auto;
+    margin-top: -5%;
+}
+.profile-name{
+    display: flex;
+    justify-content: center;
+}
+.profile-name i{
+    padding: 5px;
+    background-color: #5451fa;
+    border-radius: 100%;
+    color: #fff;
+    margin-left: 4%;
+}
+.hobby{
+    text-align: center;
+    padding: 20px;
+}
+.profile-statistics{
+    display: flex;
+    justify-content: space-around;
+}
+.profile-statistics .stat{
+    text-align: center;
+}
+.profile-statistics .stat .numbers{
+    font-weight: 600;
+    font-size: 30px;
+}
+.profile-statistics .number-blue{
+    color: #5451fa;
+}
+.followBtn{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: #dcdafe;
+    color: #5451fa;
+    border-radius: 12px;
+    font-weight: 600;
+    font-weight: 26px;
+    cursor: pointer;
+}
+.location{
+    display: flex;
+    margin: 2% 5%;
+}
+.location p{
+    font-size: 16px;
+}
+.location p i{
+    font-weight: 600;
+    font-style: normal;
+}
